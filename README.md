@@ -6,7 +6,7 @@
   </a>
 </p>
 <p align="center">
-  <img src="https://img.shields.io/badge/stats-in%20development-orange?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/stats-in%20Completed-green?style=for-the-badge" />
   <img src="https://img.shields.io/badge/python-3.14.2-blue?style=for-the-badge&logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white" />
   <img src="https://img.shields.io/github/repo-size/Sera-DAI/tasks-creator?style=for-the-badge" />
