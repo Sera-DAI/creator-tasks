@@ -1,73 +1,99 @@
 ![Header](./github-header-banner.png)
 
 <p align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=git,github,powershell,py,vscode,windows" />
+  <a href="[https://skillicons.dev](https://skillicons.dev)">
+    <img src="[https://skillicons.dev/icons?i=git,vscode,docker,py,arch,postman,windows,mysql](https://skillicons.dev/icons?i=git,vscode,docker,py,arch,postman,windows,mysql)" />
   </a>
 </p>
+
 <p align="center">
-  <img src="https://img.shields.io/badge/stats-Completed-green?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/python-3.14.2-blue?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white" />
-  <img src="https://img.shields.io/github/repo-size/Sera-DAI/tasks-creator?style=for-the-badge" />
-  <img src="https://img.shields.io/github/last-commit/Sera-DAI/tasks-creator?style=for-the-badge" />
+  <img src="[https://img.shields.io/badge/Status-Completed-success?style=for-the-badge](https://img.shields.io/badge/Status-Completed-success?style=for-the-badge)" />
+  <img src="[https://img.shields.io/badge/Python-3.12+-blue?style=for-the-badge&logo=python&logoColor=white](https://img.shields.io/badge/Python-3.12+-blue?style=for-the-badge&logo=python&logoColor=white)" />
+  <img src="[https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)" />
+  <img src="[https://img.shields.io/github/repo-size/Sera-DAI/tasks-creator?style=for-the-badge](https://img.shields.io/github/repo-size/Sera-DAI/tasks-creator?style=for-the-badge)" />
+  <img src="[https://img.shields.io/github/last-commit/Sera-DAI/tasks-creator?style=for-the-badge](https://img.shields.io/github/last-commit/Sera-DAI/tasks-creator?style=for-the-badge)" />
 </p>
 
 ---
-# 📜 ABOUT 📜
+
+## 📝 About
+
 > [!NOTE]
-> This is a simple application create for applying my personal study's involving basic concepts of Flask, APIs and CRUD. The focus of this project is developer my skills about Python, Flask, CRUD and APIs. The project itself is a very simple and don't require many steps for reproduce.
+> This is a simple application developed to apply my personal studies regarding the core concepts of Flask, REST APIs, and CRUD operations. The main focus of this project is to improve my skills in Python backend development.
 
 > [!IMPORTANT]
-> Because it is a simple program and i'm still deepening my studys about ecosystem Python and backend, the application don't have a native DBA, this tasks being stored in a list. Basically the program is done for fun and knowlegde.
-# 📖 CONCEPT 📖
-> [!NOTE]
-> The main project is focused in create tasks via requisitions HTTP, these tasks being anything(do a job, task, clean the house and etc..). You create tasks, solve them and update the status via requisitions(EX: Postman).
-# 📂 DEPENDENCIES 📂
+> Since this project was designed for learning purposes and to practice fundamental architecture, it handles data persistence temporarily in-memory (using Python lists) or through lightweight integration, making it straightforward to run and experiment with.
 
-> [!IMPORTANT]
-> ### Flask
-> 
-> ### Flask-SQAlchemy
-> 
-> ### Flask-Cors
-> 
-> ### Werkzeug
-> 
-> ### pytest
+## 📖 Concept
 
-# 🛠️ HOW RECREATE THIS APPLICATION 🛠️
+The application allows users to manage a task workflow via standard HTTP requests (e.g., creating tasks, updating their status, and deleting them). You can easily interact with the application using API clients like **Postman** or `curl`.
 
-Follow the steps below for recreate this application in your local machine.
+## 📂 Dependencies
 
-1. ### PRE-REQUIREMENTS 
+The project relies on the following main libraries:
+* **Flask** — Core microframework for routing and handling HTTP requests.
+* **Flask-SQLAlchemy** — Database ORM integration (where applicable).
+* **Flask-Cors** — Cross-Origin Resource Sharing support for API fetching.
+* **Werkzeug** — WSGI web application library.
+* **Pytest** — Framework for running automated tests.
 
-   Confirm that you have a correct version of Python installed in your machine > Python 3.14.2. 
-   
-   If you not have installed that version, enter in the following link and follow the steps to have Python installed >> https://www.python.org/downloads/
+## 🛠️ How to Run the Application
 
-   
-   Type "python --version" or "python3 --version" in the Terminal after the installation for consult a version installed in your machine and certificate that version is correct.
+Follow the steps below to set up and run this application on your local machine.
 
-2. ###  CLONE THIS REPOSITORY 
+### 1. Pre-requirements
 
-   Type in the Terminal "git clone https://github.com/Sera-DAI/tasks-creator.git" to clone this code in your machine. Certify that clone is inside of your directory of preference. Run "cd tasks-creator".
+Make sure you have Python 3.12 or higher installed. You can check your current version by running:
 
-3. ### CREATE A DESKTOP ENVIRONMENT
+```bash
+python --version  # or python3 --version
+```
 
-    Run in your Terminal: "python -m venv .venv" > ".venv/Scripts/activate" or "python3 -m venv .venv" > "source .venv/bin/activate" depending of your OS(python3 for mac/linux).
+If you don't have Python installed, download it from the [Official Website](https://www.python.org/downloads/).
 
-4. ### INSTALL ALL DEPENDENCIES
+### 2. Clone the Repository
 
-   Install all libs necessary that are listed in fle "requirements.txt". Run "pip install -r requirements.txt"
-   
-# 📖 API DOCUMENTATION 📖
+Clone this repository to your preferred local directory and navigate into the project folder:
+
+```bash
+git clone https://github.com/Sera-DAI/tasks-creator.git
+cd tasks-creator
+```
+
+### 3. Create a Virtual Environment
+
+Isolate the project dependencies by creating and activating a Python virtual environment:
+
+**On Windows:**
+```bash
+python -m venv .venv
+.venv\Scripts\activate
+```
+
+**On Linux/macOS:**
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+```
+
+### 4. Install Dependencies
+
+Install all the required packages listed in the `requirements.txt` file:
+
+```bash
+pip install -r requirements.txt
+```
+ 
+## 🌐 API Documentation
+
+You can test and explore the available API endpoints directly via Postman:
 [![Run in Postman](https://run.pstmn.io/button.svg)](https://documenter.getpostman.com/view/52076750/2sBXcAHMui)
 
-# 🖥️ USAGE 🖥️
+## 🖥️ Usage
 
-For use this application, run the server in your machine and send requests for store tasks in list. Send more requests, update or delete... After the use, close the application for stop server.
+1. Start the Flask local development server.
+2. Use Postman or any API client to send HTTP requests (`GET`, `POST`, `PUT`, `DELETE`) to interact with your tasks.
+3. Once you are done, you can stop the server by pressing `Ctrl + C` in your terminal.
 
->[!IMPORTANT]
-> After the application is used and stoped, the informations contained in the list being deleted, REMEMBER THIS.
-  
+> [!IMPORTANT]
+> If your current setup uses in-memory storage (Python lists), stopping the server application will wipe the stored tasks. Remember to keep the instance running while testing!
