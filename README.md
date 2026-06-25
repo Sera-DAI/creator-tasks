@@ -1,4 +1,4 @@
-![Header](./github-header-banner.png)
+<img width="1700" height="460" alt="github-header-banner (1)" src="https://github.com/user-attachments/assets/df232d2d-578b-42d7-b465-18dfc61d5387" />
 
 <p align="center">
   <a href="[https://skillicons.dev](https://skillicons.dev)">
